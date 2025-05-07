@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy Timers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Galaxy Timers</h1>
+    <label for="account">Select Account:</label>
+    <select id="account"></select>
+    <button onclick="addAccount()">Add Account</button>
+    
+    <div id="timers-section"></div>
+    <button onclick="addTimer('gathering')">Add Resource Gathering Timer</button>
+    <button onclick="addTimer('shipbuilding')">Add Shipbuilding Timer</button>
+    <button onclick="addTimer('energy')">Add Energy Full Timer</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
